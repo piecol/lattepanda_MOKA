@@ -235,6 +235,10 @@
           "drill": 0.2
         },
         {
+          "diameter": 0.45,
+          "drill": 0.25
+        },
+        {
           "diameter": 0.5,
           "drill": 0.3
         }
@@ -731,7 +735,7 @@
     "netclass_patterns": [
       {
         "netclass": "90Ω",
-        "pattern": "*USB_2_P*"
+        "pattern": "*USB*"
       },
       {
         "netclass": "90Ω",
@@ -762,7 +766,7 @@
         "pattern": "*/DDI_B*"
       },
       {
-        "netclass": "90Ω",
+        "netclass": "100Ω",
         "pattern": "*TMDS*"
       },
       {
