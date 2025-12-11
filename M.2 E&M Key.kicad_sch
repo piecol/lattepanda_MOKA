@@ -5150,8 +5150,8 @@
 		)
 		(uuid "303fc652-9af1-4e73-8fc0-625ba0d42a8a")
 	)
-	(label "TX-"
-		(at 201.93 71.12 0)
+	(label "E_TX-"
+		(at 200.66 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5160,8 +5160,8 @@
 		)
 		(uuid "408510ba-4d69-43b8-9ba9-490696a601b0")
 	)
-	(label "TX+"
-		(at 64.77 68.58 0)
+	(label "M_TX+"
+		(at 63.5 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5190,8 +5190,8 @@
 		)
 		(uuid "5e992ce2-bca7-4a72-a782-940d81ba906b")
 	)
-	(label "TX+"
-		(at 201.93 68.58 0)
+	(label "E_TX+"
+		(at 200.66 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5290,8 +5290,8 @@
 		)
 		(uuid "d6d3c084-a360-405e-8892-cc79a2ed84f5")
 	)
-	(label "TX-"
-		(at 64.77 71.12 0)
+	(label "M_TX-"
+		(at 63.5 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
