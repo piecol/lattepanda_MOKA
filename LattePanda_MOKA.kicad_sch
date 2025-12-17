@@ -6,91 +6,11 @@
 	(paper "A4")
 	(title_block
 		(title "LattePanda_MOKA")
-		(date "2025-12-04")
+		(date "2025-12-14")
 		(rev "1.0")
 		(company "Pierluigi Colangeli")
 	)
 	(lib_symbols
-		(symbol "Mechanical:Fiducial"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "FID"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Fiducial"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Fiducial Marker"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "fiducial marker"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Fiducial*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Fiducial_0_1"
-				(circle
-					(center 0 0)
-					(radius 1.27)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Mechanical:MountingHole_Pad"
 			(pin_numbers
 				(hide yes)
@@ -968,7 +888,7 @@
 	)
 	(text "[MOKA - MINI LATTEPANDA MU CARRIER BOARD]"
 		(exclude_from_sim no)
-		(at 85.09 17.78 0)
+		(at 85.09 20.32 0)
 		(effects
 			(font
 				(face "Arial Black")
@@ -984,20 +904,20 @@
 		(uuid "b302912d-a35b-4117-b72e-cb2204c05c8d")
 	)
 	(no_connect
-		(at 58.42 69.85)
+		(at 62.23 69.85)
 		(uuid "25dd296a-b273-4bdf-bc9b-1b5b608c6757")
 	)
 	(no_connect
-		(at 58.42 72.39)
+		(at 62.23 72.39)
 		(uuid "295763a6-57eb-4008-8853-447e5373707e")
 	)
 	(no_connect
-		(at 58.42 67.31)
+		(at 62.23 67.31)
 		(uuid "f4c4c05c-28da-4125-8046-609871dd5a82")
 	)
 	(wire
 		(pts
-			(xy 100.33 109.22) (xy 86.36 109.22)
+			(xy 104.14 109.22) (xy 90.17 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1017,7 +937,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 45.72) (xy 118.11 45.72)
+			(xy 90.17 45.72) (xy 118.11 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1027,7 +947,7 @@
 	)
 	(bus
 		(pts
-			(xy 86.36 115.57) (xy 118.11 115.57)
+			(xy 90.17 115.57) (xy 118.11 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1055,9 +975,19 @@
 		)
 		(uuid "2468d2d3-a034-4868-a8da-2c943e9fbc76")
 	)
+	(wire
+		(pts
+			(xy 90.17 125.73) (xy 118.11 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36528a27-ac76-41fa-b33a-a17e29b02fed")
+	)
 	(bus
 		(pts
-			(xy 86.36 144.78) (xy 118.11 144.78)
+			(xy 90.17 144.78) (xy 118.11 144.78)
 		)
 		(stroke
 			(width 0)
@@ -1077,7 +1007,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 40.64) (xy 118.11 40.64)
+			(xy 90.17 40.64) (xy 118.11 40.64)
 		)
 		(stroke
 			(width 0)
@@ -1087,7 +1017,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 106.68) (xy 86.36 106.68)
+			(xy 104.14 106.68) (xy 90.17 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1117,7 +1047,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 67.31) (xy 118.11 67.31)
+			(xy 90.17 67.31) (xy 118.11 67.31)
 		)
 		(stroke
 			(width 0)
@@ -1137,7 +1067,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 90.17) (xy 118.11 90.17)
+			(xy 90.17 90.17) (xy 118.11 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1147,7 +1077,7 @@
 	)
 	(bus
 		(pts
-			(xy 86.36 148.59) (xy 118.11 148.59)
+			(xy 90.17 148.59) (xy 118.11 148.59)
 		)
 		(stroke
 			(width 0)
@@ -1157,7 +1087,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 48.26) (xy 118.11 48.26)
+			(xy 90.17 48.26) (xy 118.11 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1167,7 +1097,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 87.63) (xy 118.11 87.63)
+			(xy 90.17 87.63) (xy 118.11 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1197,7 +1127,7 @@
 	)
 	(bus
 		(pts
-			(xy 86.36 152.4) (xy 118.11 152.4)
+			(xy 90.17 152.4) (xy 118.11 152.4)
 		)
 		(stroke
 			(width 0)
@@ -1227,7 +1157,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 43.18) (xy 118.11 43.18)
+			(xy 90.17 43.18) (xy 118.11 43.18)
 		)
 		(stroke
 			(width 0)
@@ -1237,7 +1167,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 71.12) (xy 118.11 71.12)
+			(xy 90.17 71.12) (xy 118.11 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1287,7 +1217,7 @@
 	)
 	(bus
 		(pts
-			(xy 86.36 119.38) (xy 118.11 119.38)
+			(xy 90.17 119.38) (xy 118.11 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1376,7 +1306,7 @@
 		(uuid "a2e908bd-efdd-40d0-9df7-935e05757cd3")
 	)
 	(label "I2C3_SCL"
-		(at 100.33 106.68 180)
+		(at 104.14 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1386,7 +1316,7 @@
 		(uuid "e180722e-c8ff-4770-ac20-37966bb1a581")
 	)
 	(label "I2C3_SDA"
-		(at 100.33 109.22 180)
+		(at 104.14 109.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1405,7 +1335,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0cd0d925-1d08-48e8-8abd-66c9c8d5086f")
-		(property "Reference" "H1"
+		(property "Reference" "H78"
 			(at 113.03 170.18 0)
 			(effects
 				(font
@@ -1483,7 +1413,7 @@
 		(instances
 			(project "[DFR1142]Lite Carrier for LattePanda Mu"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
-					(reference "H1")
+					(reference "H78")
 					(unit 1)
 				)
 			)
@@ -1499,7 +1429,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "53002907-73fe-4c30-9cc7-2e51766b5877")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR078"
 			(at 110.49 181.61 0)
 			(effects
 				(font
@@ -1549,7 +1479,7 @@
 		(instances
 			(project "[DFR1142]Lite Carrier for LattePanda Mu"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
-					(reference "#PWR01")
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -1565,7 +1495,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c79c14e-cfbb-4e68-95b1-d9e9ff2ffcb5")
-		(property "Reference" "H4"
+		(property "Reference" "H81"
 			(at 138.43 182.88 0)
 			(effects
 				(font
@@ -1643,7 +1573,7 @@
 		(instances
 			(project "[DFR1142]Lite Carrier for LattePanda Mu"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
-					(reference "H4")
+					(reference "H81")
 					(unit 1)
 				)
 			)
@@ -1659,7 +1589,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b2f38d9-942c-49b4-8df0-bb73d99e4551")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR080"
 			(at 110.49 194.31 0)
 			(effects
 				(font
@@ -1709,189 +1639,7 @@
 		(instances
 			(project "[DFR1142]Lite Carrier for LattePanda Mu"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:Fiducial")
-		(at 163.83 173.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "913e1890-1405-4666-be42-39d8868f1d7e")
-		(property "Reference" "FID1"
-			(at 166.37 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Fiducial"
-			(at 166.37 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "A_HDJ_Library:Fiducial_0.5mm_Mask1mm"
-			(at 163.83 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 163.83 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 163.83 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 163.83 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 163.83 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 163.83 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "[DFR1142]Lite Carrier for LattePanda Mu"
-				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
-					(reference "FID1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:Fiducial")
-		(at 163.83 179.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "94525e16-30d8-4914-a24a-22fe7a74ee43")
-		(property "Reference" "FID2"
-			(at 166.37 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Fiducial"
-			(at 166.37 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "A_HDJ_Library:Fiducial_0.5mm_Mask1mm"
-			(at 163.83 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 163.83 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 163.83 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 163.83 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 163.83 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 163.83 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "[DFR1142]Lite Carrier for LattePanda Mu"
-				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
-					(reference "FID2")
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -1907,7 +1655,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dfeaab4f-49e8-4eff-b881-cdae859dd212")
-		(property "Reference" "H2"
+		(property "Reference" "H80"
 			(at 113.03 182.88 0)
 			(effects
 				(font
@@ -1985,7 +1733,7 @@
 		(instances
 			(project "[DFR1142]Lite Carrier for LattePanda Mu"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
-					(reference "H2")
+					(reference "H80")
 					(unit 1)
 				)
 			)
@@ -2001,7 +1749,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eab31757-c8e1-44c2-ad5e-18ccb4ca1ffb")
-		(property "Reference" "H3"
+		(property "Reference" "H79"
 			(at 138.43 170.18 0)
 			(effects
 				(font
@@ -2079,7 +1827,7 @@
 		(instances
 			(project "[DFR1142]Lite Carrier for LattePanda Mu"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
-					(reference "H3")
+					(reference "H79")
 					(unit 1)
 				)
 			)
@@ -2095,7 +1843,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "edc67783-b22c-400d-a0f8-de7f67c72236")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR079"
 			(at 135.89 181.61 0)
 			(effects
 				(font
@@ -2145,7 +1893,7 @@
 		(instances
 			(project "[DFR1142]Lite Carrier for LattePanda Mu"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
-					(reference "#PWR03")
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -2161,7 +1909,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f94aa6a2-2c50-4f99-b6cc-02bbd74739a3")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR081"
 			(at 135.89 194.31 0)
 			(effects
 				(font
@@ -2211,14 +1959,14 @@
 		(instances
 			(project "[DFR1142]Lite Carrier for LattePanda Mu"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
-					(reference "#PWR04")
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(sheet
-		(at 58.42 63.5)
+		(at 62.23 63.5)
 		(size 27.94 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2234,7 +1982,7 @@
 		)
 		(uuid "3a597c52-640b-4e4c-bb57-6eff9e8fff95")
 		(property "Sheetname" "Fan_Temp"
-			(at 58.42 62.7884 0)
+			(at 62.23 62.7884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2243,7 +1991,7 @@
 			)
 		)
 		(property "Sheetfile" "fan_temp.kicad_sch"
-			(at 58.42 75.5146 0)
+			(at 62.23 75.5146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2253,7 +2001,7 @@
 			)
 		)
 		(pin "FAN_1_TAC" output
-			(at 86.36 67.31 0)
+			(at 90.17 67.31 0)
 			(uuid "3dc61023-0337-4cc3-82f1-daa88800fe64")
 			(effects
 				(font
@@ -2263,7 +2011,7 @@
 			)
 		)
 		(pin "FAN_1_PWM" input
-			(at 86.36 71.12 0)
+			(at 90.17 71.12 0)
 			(uuid "dad7f017-fad4-4296-9c69-dbdee6710db0")
 			(effects
 				(font
@@ -2273,7 +2021,7 @@
 			)
 		)
 		(pin "FAN_2_PWM" input
-			(at 58.42 69.85 180)
+			(at 62.23 69.85 180)
 			(uuid "8d5a37ab-6395-4a45-aadc-448b1fdf29e5")
 			(effects
 				(font
@@ -2283,7 +2031,7 @@
 			)
 		)
 		(pin "FAN_2_TAC" output
-			(at 58.42 67.31 180)
+			(at 62.23 67.31 180)
 			(uuid "aa09d240-57ef-4b4f-b298-3d91bd17949b")
 			(effects
 				(font
@@ -2293,7 +2041,7 @@
 			)
 		)
 		(pin "TEMP" output
-			(at 58.42 72.39 180)
+			(at 62.23 72.39 180)
 			(uuid "7c49be36-6892-451e-940f-aa10f4a79a04")
 			(effects
 				(font
@@ -2615,6 +2363,16 @@
 				(justify right)
 			)
 		)
+		(pin "GPP_D3" input
+			(at 118.11 125.73 180)
+			(uuid "a6cf4aff-9d27-4aab-a925-851b2cc18422")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "LattePanda_MOKA"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
@@ -2624,7 +2382,7 @@
 		)
 	)
 	(sheet
-		(at 58.42 83.82)
+		(at 62.23 83.82)
 		(size 27.94 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2640,7 +2398,7 @@
 		)
 		(uuid "a4c64f71-bae9-4c6f-aa89-7c025d760ed2")
 		(property "Sheetname" "SENSORS"
-			(at 58.42 83.1084 0)
+			(at 62.23 83.1084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2649,7 +2407,7 @@
 			)
 		)
 		(property "Sheetfile" "SENSORS.kicad_sch"
-			(at 58.42 94.5646 0)
+			(at 62.23 94.5646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2659,7 +2417,7 @@
 			)
 		)
 		(pin "I2C_SCL" input
-			(at 86.36 87.63 0)
+			(at 90.17 87.63 0)
 			(uuid "69fbc9bb-0fa4-4fc8-8b08-8ab9553e5932")
 			(effects
 				(font
@@ -2669,7 +2427,7 @@
 			)
 		)
 		(pin "I2C_SDA" bidirectional
-			(at 86.36 90.17 0)
+			(at 90.17 90.17 0)
 			(uuid "e1689691-71b6-4645-84a6-ab35162443e9")
 			(effects
 				(font
@@ -2687,7 +2445,7 @@
 		)
 	)
 	(sheet
-		(at 58.42 102.87)
+		(at 62.23 102.87)
 		(size 27.94 27.94)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2703,7 +2461,7 @@
 		)
 		(uuid "acc0df64-2c09-4a9c-81f0-a458d3acd1d7")
 		(property "Sheetname" "CSI"
-			(at 58.42 102.1584 0)
+			(at 62.23 102.1584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2712,7 +2470,7 @@
 			)
 		)
 		(property "Sheetfile" "CSI.kicad_sch"
-			(at 58.42 131.3946 0)
+			(at 62.23 131.3946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2721,28 +2479,8 @@
 				(hide yes)
 			)
 		)
-		(pin "CAM_GPIO0" output
-			(at 86.36 124.46 0)
-			(uuid "d4954c9b-cea5-4aac-9c02-4419a7d484cb")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "CAM_GPIO1" output
-			(at 86.36 127 0)
-			(uuid "3376554f-0ee4-4830-8433-cec36aca1a56")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "I2C3_SCL" output
-			(at 86.36 106.68 0)
+			(at 90.17 106.68 0)
 			(uuid "c4c030f8-efa4-419e-a0db-0502e9101f65")
 			(effects
 				(font
@@ -2752,7 +2490,7 @@
 			)
 		)
 		(pin "I2C3_SDA" bidirectional
-			(at 86.36 109.22 0)
+			(at 90.17 109.22 0)
 			(uuid "02c47a93-d964-4a59-b9ad-1b634a35fdfe")
 			(effects
 				(font
@@ -2762,7 +2500,7 @@
 			)
 		)
 		(pin "CSI_C{CSI}" bidirectional
-			(at 86.36 115.57 0)
+			(at 90.17 115.57 0)
 			(uuid "26f13f6f-126b-4201-9437-8dd14278f3c4")
 			(effects
 				(font
@@ -2772,8 +2510,18 @@
 			)
 		)
 		(pin "CSI_D{CSI}" bidirectional
-			(at 86.36 119.38 0)
+			(at 90.17 119.38 0)
 			(uuid "f9012ea9-e7f7-4130-b064-ba5068478279")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAM_GPIO_D3" output
+			(at 90.17 125.73 0)
+			(uuid "792b5da9-a107-4be4-ac19-48241814fd66")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2883,7 +2631,7 @@
 		)
 	)
 	(sheet
-		(at 58.42 36.83)
+		(at 62.23 36.83)
 		(size 27.94 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2899,7 +2647,7 @@
 		)
 		(uuid "b23aee49-27d1-466d-98e2-113ee657e42b")
 		(property "Sheetname" "PSU"
-			(at 58.42 36.1184 0)
+			(at 62.23 36.1184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2908,7 +2656,7 @@
 			)
 		)
 		(property "Sheetfile" "PSU.kicad_sch"
-			(at 58.42 52.6546 0)
+			(at 62.23 52.6546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2918,7 +2666,7 @@
 			)
 		)
 		(pin "~{PWR_LED}{slash}~{PSON}" input
-			(at 86.36 48.26 0)
+			(at 90.17 48.26 0)
 			(uuid "01bfb923-323f-4552-93c2-a5ccbee06ba1")
 			(effects
 				(font
@@ -2928,7 +2676,7 @@
 			)
 		)
 		(pin "SLS_S3" input
-			(at 86.36 45.72 0)
+			(at 90.17 45.72 0)
 			(uuid "91053ec3-c2f9-418c-b958-c984c20c10ab")
 			(effects
 				(font
@@ -2938,7 +2686,7 @@
 			)
 		)
 		(pin "~{PWR_SW}" output
-			(at 86.36 43.18 0)
+			(at 90.17 43.18 0)
 			(uuid "098c6660-93a9-4414-83c6-aaebf2bcea70")
 			(effects
 				(font
@@ -2948,7 +2696,7 @@
 			)
 		)
 		(pin "~{RST_SW}" output
-			(at 86.36 40.64 0)
+			(at 90.17 40.64 0)
 			(uuid "9048d091-421e-4729-9b02-7a0397d80d4b")
 			(effects
 				(font
@@ -3205,7 +2953,7 @@
 		)
 	)
 	(sheet
-		(at 58.42 140.97)
+		(at 62.23 140.97)
 		(size 27.94 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3221,7 +2969,7 @@
 		)
 		(uuid "f9aa04f2-8362-4e9f-9e54-e2b1a8ec9b0a")
 		(property "Sheetname" "USB2.0&USB3.0"
-			(at 58.42 140.2584 0)
+			(at 62.23 140.2584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3230,7 +2978,7 @@
 			)
 		)
 		(property "Sheetfile" "USB2.0&USB3.0.kicad_sch"
-			(at 58.42 156.7946 0)
+			(at 62.23 156.7946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3240,7 +2988,7 @@
 			)
 		)
 		(pin "USB2_5{USB}" input
-			(at 86.36 152.4 0)
+			(at 90.17 152.4 0)
 			(uuid "d454979d-ee80-4a26-992e-c15701830e6d")
 			(effects
 				(font
@@ -3250,7 +2998,7 @@
 			)
 		)
 		(pin "USB2_3{USB}" input
-			(at 86.36 148.59 0)
+			(at 90.17 148.59 0)
 			(uuid "f0022458-9828-4c33-beac-1eb003076640")
 			(effects
 				(font
@@ -3260,7 +3008,7 @@
 			)
 		)
 		(pin "USB3{USB}" input
-			(at 86.36 144.78 0)
+			(at 90.17 144.78 0)
 			(uuid "bcea595a-fa2c-4357-bced-dd0160b996a2")
 			(effects
 				(font

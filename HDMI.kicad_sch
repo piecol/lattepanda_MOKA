@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "LattePanda_MOKA")
-		(date "2025-12-04")
+		(date "2025-12-14")
 		(rev "1.0")
 		(company "DFRobot")
 	)
@@ -1564,6 +1564,146 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:Fuse"
 			(pin_numbers
 				(hide yes)
@@ -1806,6 +1946,131 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
 					(name "~"
 						(effects
 							(font
@@ -3737,6 +4002,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "[HDMI]"
+		(exclude_from_sim no)
+		(at 24.13 17.78 0)
+		(effects
+			(font
+				(face "Arial Black")
+				(size 3.81 3.81)
+			)
+		)
+		(uuid "9deb9216-5e26-4b19-8692-fb7875bdf982")
+	)
 	(junction
 		(at 125.73 120.65)
 		(diameter 0)
@@ -3760,6 +4036,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "094b9a87-b60e-44e5-87f9-369574073c3b")
+	)
+	(junction
+		(at 264.16 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1035ac07-fc09-4354-8600-165013d6fc35")
 	)
 	(junction
 		(at 69.85 120.65)
@@ -3814,12 +4096,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "38877b8e-4159-4757-b634-f4a163fd6268")
-	)
-	(junction
-		(at 261.62 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4193980c-8e8c-4a97-9d60-0c4254d70fb7")
 	)
 	(junction
 		(at 259.08 96.52)
@@ -3888,12 +4164,6 @@
 		(uuid "954a36de-a76c-4e5c-9e00-83b695377a97")
 	)
 	(junction
-		(at 264.16 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "95fc41cf-2200-448c-a012-53b94e2486dd")
-	)
-	(junction
 		(at 97.79 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3906,10 +4176,16 @@
 		(uuid "9b137489-d992-42e6-9ebe-360044df684e")
 	)
 	(junction
-		(at 266.7 96.52)
+		(at 270.51 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9d777531-e08d-4998-a905-6204ab3a5553")
+		(uuid "9c882c5b-7da1-447e-b5c3-dd1446d279c9")
+	)
+	(junction
+		(at 275.59 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9cb6126c-3897-43aa-a150-a59a78e7bd06")
 	)
 	(junction
 		(at 93.98 105.41)
@@ -4000,6 +4276,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e5bd7201-e45a-4d63-8918-ac6f0639d847")
+	)
+	(junction
+		(at 261.62 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e5cfc8f0-84f1-4dba-bb1c-dd7465e42881")
 	)
 	(junction
 		(at 91.44 105.41)
@@ -4219,7 +4501,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 91.44) (xy 266.7 96.52)
+			(xy 275.59 97.79) (xy 275.59 99.06)
 		)
 		(stroke
 			(width 0)
@@ -4246,6 +4528,16 @@
 			(type default)
 		)
 		(uuid "176c5d9f-04ad-4f4e-87a7-ee9f4c7f4465")
+	)
+	(wire
+		(pts
+			(xy 270.51 97.79) (xy 266.7 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "183c7a18-b64a-4ebe-8a18-76bc2d9122d1")
 	)
 	(wire
 		(pts
@@ -4369,6 +4661,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 97.79) (xy 266.7 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "290bd2a8-bf2d-4869-b383-2f8b3d429583")
+	)
+	(wire
+		(pts
 			(xy 97.79 88.9) (xy 97.79 68.58)
 		)
 		(stroke
@@ -4466,6 +4768,16 @@
 			(type default)
 		)
 		(uuid "3a384820-40a4-4cdd-9895-99d888d2fb17")
+	)
+	(wire
+		(pts
+			(xy 275.59 105.41) (xy 275.59 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c2f4cef-4c4f-4a38-80c7-9149d108233d")
 	)
 	(wire
 		(pts
@@ -4696,16 +5008,6 @@
 			(type default)
 		)
 		(uuid "68a35285-781f-4532-8421-fbb68665ff1e")
-	)
-	(wire
-		(pts
-			(xy 261.62 96.52) (xy 264.16 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a13cefc-6de4-4cd8-8949-fc3ec516b728")
 	)
 	(wire
 		(pts
@@ -5129,6 +5431,16 @@
 	)
 	(wire
 		(pts
+			(xy 275.59 97.79) (xy 270.51 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b56b3145-7db0-494c-b199-2f132e753421")
+	)
+	(wire
+		(pts
 			(xy 99.06 140.97) (xy 106.68 140.97)
 		)
 		(stroke
@@ -5189,6 +5501,16 @@
 	)
 	(wire
 		(pts
+			(xy 270.51 97.79) (xy 270.51 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bca72898-0b70-420f-8054-15196c0b7a14")
+	)
+	(wire
+		(pts
 			(xy 125.73 160.02) (xy 125.73 162.56)
 		)
 		(stroke
@@ -5226,6 +5548,16 @@
 			(type default)
 		)
 		(uuid "c3b4f4e2-06d8-4c2a-9c97-2f2bd1f1491d")
+	)
+	(wire
+		(pts
+			(xy 264.16 105.41) (xy 264.16 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c62e897d-a1fb-41df-8bc1-f98cabc8b307")
 	)
 	(wire
 		(pts
@@ -5346,6 +5678,16 @@
 			(type default)
 		)
 		(uuid "d76ace8e-817e-40f4-b278-45ac9b8a5769")
+	)
+	(wire
+		(pts
+			(xy 270.51 104.14) (xy 275.59 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9958483-2de0-4ff6-a86e-d464fd5b3e9a")
 	)
 	(wire
 		(pts
@@ -5479,16 +5821,6 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 96.52) (xy 266.7 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e997bc79-3910-4160-8023-3b236437bdc4")
-	)
-	(wire
-		(pts
 			(xy 46.99 148.59) (xy 69.85 148.59)
 		)
 		(stroke
@@ -5556,6 +5888,16 @@
 			(type default)
 		)
 		(uuid "f0a41ffa-cee5-4305-a1b5-6030aebdd0de")
+	)
+	(wire
+		(pts
+			(xy 261.62 96.52) (xy 264.16 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f39e1a50-314c-4933-bed5-e529c6256e98")
 	)
 	(wire
 		(pts
@@ -5657,27 +5999,7 @@
 		)
 		(uuid "03cbdd3c-1d20-45e6-b580-8b952d340fbd")
 	)
-	(label "DDI_B_TX1-"
-		(at 39.37 57.15 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "08a9ba46-a7ba-4bdc-a392-be9370b2f15b")
-	)
-	(label "DDI_B_TX1+"
-		(at 39.37 54.61 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0b232dfd-b224-4ff1-91da-635a5d6d0121")
-	)
-	(label "DDI_B_TX2-"
+	(label "HDMI_1.TX2-"
 		(at 39.37 68.58 0)
 		(effects
 			(font
@@ -5685,7 +6007,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "10cac89c-2e0b-4aa3-a14f-b1ebef10d82b")
+		(uuid "144f4732-95a3-49d9-99c6-c61b71956902")
 	)
 	(label "TMDS_D0+"
 		(at 226.06 53.34 180)
@@ -5707,16 +6029,6 @@
 		)
 		(uuid "1fa32758-3b5c-4fc2-9fc4-ea4a9402c4e8")
 	)
-	(label "DDI_B_TX2+"
-		(at 39.37 66.04 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "24dd1a5d-db27-4f9f-9f9d-9499cec5b472")
-	)
 	(label "DDC_SCL"
 		(at 147.32 135.89 180)
 		(effects
@@ -5736,16 +6048,6 @@
 			(justify right bottom)
 		)
 		(uuid "3916c82c-36e0-4e8d-b902-c63b5f42cc06")
-	)
-	(label "DDI_B_TX0+"
-		(at 39.37 43.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4170a70a-597b-459c-a1b3-8026e194dedf")
 	)
 	(label "TMDS_D2-"
 		(at 129.54 45.72 180)
@@ -5777,6 +6079,16 @@
 		)
 		(uuid "7a4a288a-d928-416e-ba6c-61dfd1f5bc5d")
 	)
+	(label "HDMI_1.TX3+"
+		(at 39.37 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7b42d7b8-8e10-42a5-b11d-c4cbf669bf81")
+	)
 	(label "TMDS_D0-"
 		(at 129.54 68.58 180)
 		(effects
@@ -5797,17 +6109,7 @@
 		)
 		(uuid "809b8fe5-78f9-442b-8086-197d4f2f8c99")
 	)
-	(label "DDI_B_TX0-"
-		(at 39.37 45.72 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "85e000c6-10f9-4645-aedf-cdb0dea3f386")
-	)
-	(label "DDI_B_TX3-"
+	(label "HDMI_1.TX3-"
 		(at 39.37 80.01 0)
 		(effects
 			(font
@@ -5815,7 +6117,27 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "870ac8ee-b56e-4a32-96d3-d1f13a1927e9")
+		(uuid "826f4eb4-fc46-4543-b568-0be6cf2fc44a")
+	)
+	(label "HDMI_1.TX1+"
+		(at 39.37 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8455abac-f836-4c93-a651-671ba65e887e")
+	)
+	(label "HDMI_1.TX2+"
+		(at 39.37 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "97f56717-57cf-4595-afd9-e7b22fc5ea64")
 	)
 	(label "TMDS_D0+"
 		(at 194.31 88.9 180)
@@ -5887,15 +6209,15 @@
 		)
 		(uuid "b5f9f5fc-257d-43e3-9976-83e08a00a384")
 	)
-	(label "DDI_B_TX3+"
-		(at 39.37 77.47 0)
+	(label "HDMI_1.TX1-"
+		(at 39.37 57.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "ba64bae3-8de4-4d2a-aa2e-ded04bba00e7")
+		(uuid "b6241504-6829-4140-a9b4-728f379b0751")
 	)
 	(label "TMDS_CK+"
 		(at 129.54 77.47 180)
@@ -5927,6 +6249,16 @@
 		)
 		(uuid "cc5e3187-d2ec-4c84-acc4-451d98c3f0c0")
 	)
+	(label "HDMI_1.TX0+"
+		(at 39.37 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d3d5ab24-63c3-4edf-a165-0e284d0694c0")
+	)
 	(label "DDC_SDA"
 		(at 147.32 148.59 180)
 		(effects
@@ -5936,6 +6268,16 @@
 			(justify right bottom)
 		)
 		(uuid "d3e48b60-008c-4439-9474-ea50813a5f50")
+	)
+	(label "HDMI_1.TX0-"
+		(at 39.37 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d5a5e6b5-aa0f-4058-97f8-48156192786c")
 	)
 	(label "TMDS_D2+"
 		(at 226.06 43.18 180)
@@ -6052,7 +6394,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b86c6d1-2e0f-46e9-8b35-56ed00e07761")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR0104"
 			(at 125.73 168.91 0)
 			(effects
 				(font
@@ -6102,7 +6444,7 @@
 		(instances
 			(project "[DFR1142]Lite Carrier for LattePanda Mu"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b169c362-0273-44a3-bb19-0bcbad977976"
-					(reference "#PWR025")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -6117,7 +6459,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1125719f-31b2-43ff-8834-9a970d301c2d")
-		(property "Reference" "C23"
+		(property "Reference" "C85"
 			(at 73.66 76.2 90)
 			(effects
 				(font
@@ -6205,7 +6547,73 @@
 		(instances
 			(project "[DFR1142]Lite Carrier for LattePanda Mu"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b169c362-0273-44a3-bb19-0bcbad977976"
-					(reference "C23")
+					(reference "C85")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 264.16 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "133428cf-b6e6-4e28-972f-d158ec212e38")
+		(property "Reference" "#PWR0203"
+			(at 264.16 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 264.16 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 264.16 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 264.16 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "73b5e99e-b77a-4ac9-a62c-1e3594a60e39")
+		)
+		(instances
+			(project "LattePanda_MOKA"
+				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b169c362-0273-44a3-bb19-0bcbad977976"
+					(reference "#PWR0203")
 					(unit 1)
 				)
 			)
@@ -6220,7 +6628,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1464958f-2c84-43b3-8a5f-5c13cf7c6174")
-		(property "Reference" "R8"
+		(property "Reference" "R85"
 			(at 92.71 101.6 90)
 			(effects
 				(font
@@ -6310,7 +6718,7 @@
 		(instances
 			(project "[DFR1142]Lite Carrier for LattePanda Mu"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b169c362-0273-44a3-bb19-0bcbad977976"
-					(reference "R8")
+					(reference "R85")
 					(unit 1)
 				)
 			)
@@ -6325,7 +6733,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "18f090f9-80dd-437a-aad4-ef2eccac75b8")
-		(property "Reference" "R15"
+		(property "Reference" "R96"
 			(at 116.84 125.73 0)
 			(effects
 				(font
@@ -6415,7 +6823,7 @@
 		(instances
 			(project "[DFR1142]Lite Carrier for LattePanda Mu"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b169c362-0273-44a3-bb19-0bcbad977976"
-					(reference "R15")
+					(reference "R96")
 					(unit 1)
 				)
 			)
@@ -6430,7 +6838,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2912c02d-e484-4593-8d4f-160dc3b8fe22")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR094"
 			(at 259.08 16.51 0)
 			(effects
 				(font
@@ -6480,7 +6888,7 @@
 		(instances
 			(project "[DFR1142]Lite Carrier for LattePanda Mu"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b169c362-0273-44a3-bb19-0bcbad977976"
-					(reference "#PWR029")
+					(reference "#PWR094")
 					(unit 1)
 				)
 			)
@@ -6495,7 +6903,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "36c46842-fcfe-4fd7-980d-0e32855ad46c")
-		(property "Reference" "R4"
+		(property "Reference" "R98"
 			(at 59.69 167.64 0)
 			(effects
 				(font
@@ -6585,7 +6993,7 @@
 		(instances
 			(project "[DFR1142]Lite Carrier for LattePanda Mu"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b169c362-0273-44a3-bb19-0bcbad977976"
-					(reference "R4")
+					(reference "R98")
 					(unit 1)
 				)
 			)
@@ -6600,7 +7008,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3e4f7a90-6c17-402f-ba42-6cfaa0f3cd83")
-		(property "Reference" "C20"
+		(property "Reference" "C82"
 			(at 73.66 55.88 90)
 			(effects
 				(font
@@ -6688,7 +7096,7 @@
 		(instances
 			(project "[DFR1142]Lite Carrier for LattePanda Mu"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b169c362-0273-44a3-bb19-0bcbad977976"
-					(reference "C20")
+					(reference "C82")
 					(unit 1)
 				)
 			)
@@ -6704,7 +7112,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "403746b4-7c91-4a4d-a195-fce4b50de644")
-		(property "Reference" "Q3"
+		(property "Reference" "Q80"
 			(at 93.98 144.78 90)
 			(effects
 				(font
@@ -6800,7 +7208,7 @@
 		(instances
 			(project "[DFR1142]Lite Carrier for LattePanda Mu"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b169c362-0273-44a3-bb19-0bcbad977976"
-					(reference "Q3")
+					(reference "Q80")
 					(unit 1)
 				)
 			)
@@ -6815,7 +7223,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "407cb120-e48a-4d08-a1b7-1e6e00e344c4")
-		(property "Reference" "R13"
+		(property "Reference" "R88"
 			(at 102.87 101.6 90)
 			(effects
 				(font
@@ -6905,7 +7313,7 @@
 		(instances
 			(project "[DFR1142]Lite Carrier for LattePanda Mu"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b169c362-0273-44a3-bb19-0bcbad977976"
-					(reference "R13")
+					(reference "R88")
 					(unit 1)
 				)
 			)
@@ -6921,7 +7329,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "43493711-bad2-4e3c-92fe-8ac1d840097f")
-		(property "Reference" "F1"
+		(property "Reference" "F78"
 			(at 261.62 26.67 0)
 			(effects
 				(font
@@ -7011,7 +7419,113 @@
 		(instances
 			(project "[DFR1142]Lite Carrier for LattePanda Mu"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b169c362-0273-44a3-bb19-0bcbad977976"
-					(reference "F1")
+					(reference "F78")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 270.51 101.6 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "44e91300-b373-4f9b-a52f-5d18fba47f94")
+		(property "Reference" "R92"
+			(at 269.24 102.87 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1M"
+			(at 269.24 100.33 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
+			(at 270.51 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 270.51 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 270.51 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SCH_Show_Footprint" ""
+			(at 270.51 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 270.51 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 270.51 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 270.51 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4bf8ce19-a9cc-4628-9071-8392f6c9931c")
+		)
+		(pin "2"
+			(uuid "19c6b638-b1f4-43a5-943a-5e3ec2951544")
+		)
+		(instances
+			(project "LattePanda_MOKA"
+				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b169c362-0273-44a3-bb19-0bcbad977976"
+					(reference "R92")
 					(unit 1)
 				)
 			)
@@ -7027,7 +7541,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49c2440a-bcc1-41f7-9a0d-941c55d48d99")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR099"
 			(at 69.85 124.46 0)
 			(effects
 				(font
@@ -7077,7 +7591,7 @@
 		(instances
 			(project "[DFR1142]Lite Carrier for LattePanda Mu"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b169c362-0273-44a3-bb19-0bcbad977976"
-					(reference "#PWR020")
+					(reference "#PWR099")
 					(unit 1)
 				)
 			)
@@ -7092,7 +7606,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4f1a5442-50b1-4b60-b6b8-eb833f54c22b")
-		(property "Reference" "C25"
+		(property "Reference" "C78"
 			(at 261.62 21.59 90)
 			(effects
 				(font
@@ -7180,7 +7694,7 @@
 		(instances
 			(project "[DFR1142]Lite Carrier for LattePanda Mu"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b169c362-0273-44a3-bb19-0bcbad977976"
-					(reference "C25")
+					(reference "C78")
 					(unit 1)
 				)
 			)
@@ -7196,7 +7710,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4fef0618-f599-489a-ade9-bbbc8ca3ee22")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR0105"
 			(at 86.36 195.58 0)
 			(effects
 				(font
@@ -7246,7 +7760,7 @@
 		(instances
 			(project "[DFR1142]Lite Carrier for LattePanda Mu"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b169c362-0273-44a3-bb19-0bcbad977976"
-					(reference "#PWR022")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -7262,7 +7776,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5625a8d6-9cf9-44a3-bd1a-bf9beba7a20e")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR0101"
 			(at 154.94 124.46 0)
 			(effects
 				(font
@@ -7312,7 +7826,7 @@
 		(instances
 			(project "[DFR1142]Lite Carrier for LattePanda Mu"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b169c362-0273-44a3-bb19-0bcbad977976"
-					(reference "#PWR026")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -7327,7 +7841,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5b11cf8f-f138-419e-ac0f-950393336b94")
-		(property "Reference" "R11"
+		(property "Reference" "R99"
 			(at 97.79 170.18 90)
 			(effects
 				(font
@@ -7417,7 +7931,7 @@
 		(instances
 			(project "[DFR1142]Lite Carrier for LattePanda Mu"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b169c362-0273-44a3-bb19-0bcbad977976"
-					(reference "R11")
+					(reference "R99")
 					(unit 1)
 				)
 			)
@@ -7432,7 +7946,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "603198bf-893d-4e8b-a9b2-d640c1909798")
-		(property "Reference" "R18"
+		(property "Reference" "R97"
 			(at 127 125.73 0)
 			(effects
 				(font
@@ -7522,7 +8036,7 @@
 		(instances
 			(project "[DFR1142]Lite Carrier for LattePanda Mu"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b169c362-0273-44a3-bb19-0bcbad977976"
-					(reference "R18")
+					(reference "R97")
 					(unit 1)
 				)
 			)
@@ -7530,7 +8044,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 266.7 96.52 0)
+		(at 275.59 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7538,8 +8052,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6354f7f3-7d6e-4e41-91eb-a606d7941441")
-		(property "Reference" "#PWR030"
-			(at 266.7 102.87 0)
+		(property "Reference" "#PWR0102"
+			(at 275.59 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7548,7 +8062,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 266.7 101.6 0)
+			(at 275.59 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7556,7 +8070,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 266.7 96.52 0)
+			(at 275.59 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7565,7 +8079,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 266.7 96.52 0)
+			(at 275.59 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7574,7 +8088,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 266.7 96.52 0)
+			(at 275.59 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7586,9 +8100,9 @@
 			(uuid "23ca0b0a-0cc6-4f6e-acbe-78a1ce8174c7")
 		)
 		(instances
-			(project "[DFR1142]Lite Carrier for LattePanda Mu"
+			(project "LattePanda_MOKA"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b169c362-0273-44a3-bb19-0bcbad977976"
-					(reference "#PWR030")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -7603,7 +8117,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "68087c9e-7f51-4427-a1dd-c5c7f45263dc")
-		(property "Reference" "R5"
+		(property "Reference" "R95"
 			(at 81.28 125.73 0)
 			(effects
 				(font
@@ -7693,7 +8207,7 @@
 		(instances
 			(project "[DFR1142]Lite Carrier for LattePanda Mu"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b169c362-0273-44a3-bb19-0bcbad977976"
-					(reference "R5")
+					(reference "R95")
 					(unit 1)
 				)
 			)
@@ -7708,7 +8222,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "70736886-3b9d-4379-9728-c016bf64e8fa")
-		(property "Reference" "R9"
+		(property "Reference" "R86"
 			(at 96.52 101.6 90)
 			(effects
 				(font
@@ -7798,7 +8312,7 @@
 		(instances
 			(project "[DFR1142]Lite Carrier for LattePanda Mu"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b169c362-0273-44a3-bb19-0bcbad977976"
-					(reference "R9")
+					(reference "R86")
 					(unit 1)
 				)
 			)
@@ -7814,7 +8328,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "72822ca2-ae9c-4649-9350-1424a0ac1de2")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR098"
 			(at 54.61 124.46 0)
 			(effects
 				(font
@@ -7864,7 +8378,7 @@
 		(instances
 			(project "[DFR1142]Lite Carrier for LattePanda Mu"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b169c362-0273-44a3-bb19-0bcbad977976"
-					(reference "#PWR024")
+					(reference "#PWR098")
 					(unit 1)
 				)
 			)
@@ -7879,7 +8393,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "76b2e14f-28e5-49e5-86f3-9bd3fd65cb50")
-		(property "Reference" "R10"
+		(property "Reference" "R87"
 			(at 99.06 101.6 90)
 			(effects
 				(font
@@ -7969,7 +8483,7 @@
 		(instances
 			(project "[DFR1142]Lite Carrier for LattePanda Mu"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b169c362-0273-44a3-bb19-0bcbad977976"
-					(reference "R10")
+					(reference "R87")
 					(unit 1)
 				)
 			)
@@ -7984,7 +8498,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7735e1fb-d482-43b2-8ed5-f42f5d0556f9")
-		(property "Reference" "D1"
+		(property "Reference" "D79"
 			(at 110.49 157.48 90)
 			(effects
 				(font
@@ -8074,7 +8588,7 @@
 		(instances
 			(project "[DFR1142]Lite Carrier for LattePanda Mu"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b169c362-0273-44a3-bb19-0bcbad977976"
-					(reference "D1")
+					(reference "D79")
 					(unit 1)
 				)
 			)
@@ -8090,7 +8604,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77b247fd-ae72-47d7-833d-c6508e9d7d78")
-		(property "Reference" "D4"
+		(property "Reference" "D78"
 			(at 144.4625 114.3 0)
 			(effects
 				(font
@@ -8178,7 +8692,7 @@
 		(instances
 			(project "[DFR1142]Lite Carrier for LattePanda Mu"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b169c362-0273-44a3-bb19-0bcbad977976"
-					(reference "D4")
+					(reference "D78")
 					(unit 1)
 				)
 			)
@@ -8194,7 +8708,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "78b7a7f4-78dd-4d48-bbd2-ff818140a8cd")
-		(property "Reference" "J3"
+		(property "Reference" "J79"
 			(at 270.51 62.23 0)
 			(effects
 				(font
@@ -8338,7 +8852,7 @@
 		(instances
 			(project "[DFR1142]Lite Carrier for LattePanda Mu"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b169c362-0273-44a3-bb19-0bcbad977976"
-					(reference "J3")
+					(reference "J79")
 					(unit 1)
 				)
 			)
@@ -8353,7 +8867,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7b2a93c9-b847-43c2-b320-cc9c7ca621bc")
-		(property "Reference" "C24"
+		(property "Reference" "C86"
 			(at 73.66 78.74 90)
 			(effects
 				(font
@@ -8441,7 +8955,7 @@
 		(instances
 			(project "[DFR1142]Lite Carrier for LattePanda Mu"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b169c362-0273-44a3-bb19-0bcbad977976"
-					(reference "C24")
+					(reference "C86")
 					(unit 1)
 				)
 			)
@@ -8456,7 +8970,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7e1f4e66-8d31-4e77-bb69-fdb81b9451e8")
-		(property "Reference" "R6"
+		(property "Reference" "R100"
 			(at 87.63 181.61 0)
 			(effects
 				(font
@@ -8546,7 +9060,7 @@
 		(instances
 			(project "[DFR1142]Lite Carrier for LattePanda Mu"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b169c362-0273-44a3-bb19-0bcbad977976"
-					(reference "R6")
+					(reference "R100")
 					(unit 1)
 				)
 			)
@@ -8562,7 +9076,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e885c38-4ec2-4342-9834-0569d612ec80")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR097"
 			(at 207.01 110.49 0)
 			(effects
 				(font
@@ -8612,7 +9126,7 @@
 		(instances
 			(project "[DFR1142]Lite Carrier for LattePanda Mu"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b169c362-0273-44a3-bb19-0bcbad977976"
-					(reference "#PWR028")
+					(reference "#PWR097")
 					(unit 1)
 				)
 			)
@@ -8627,7 +9141,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7fbfcf98-dc37-4330-9dcb-3c782bcf364d")
-		(property "Reference" "C17"
+		(property "Reference" "C79"
 			(at 73.66 41.91 90)
 			(effects
 				(font
@@ -8715,7 +9229,110 @@
 		(instances
 			(project "[DFR1142]Lite Carrier for LattePanda Mu"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b169c362-0273-44a3-bb19-0bcbad977976"
-					(reference "C17")
+					(reference "C79")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 275.59 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7fd8210c-2734-4aa8-9819-cfa0169a58f7")
+		(property "Reference" "C87"
+			(at 278.13 99.06 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 280.67 104.14 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 275.59 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 275.59 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 275.59 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SCH_Show_Footprint" "C0402"
+			(at 275.59 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 275.59 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 275.59 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 275.59 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9ea68f96-34dd-49d5-b4dc-05f82230a034")
+		)
+		(pin "1"
+			(uuid "36b74fe9-c66e-4e73-a79d-a4affdfebbd9")
+		)
+		(instances
+			(project "LattePanda_MOKA"
+				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b169c362-0273-44a3-bb19-0bcbad977976"
+					(reference "C87")
 					(unit 1)
 				)
 			)
@@ -8731,7 +9348,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8bc24ae2-b175-4b20-8686-9ba43c58f1d3")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR0103"
 			(at 58.42 166.37 0)
 			(effects
 				(font
@@ -8781,7 +9398,7 @@
 		(instances
 			(project "[DFR1142]Lite Carrier for LattePanda Mu"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b169c362-0273-44a3-bb19-0bcbad977976"
-					(reference "#PWR021")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -8796,7 +9413,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a12a7051-8092-47bc-be29-708b3dbb2efd")
-		(property "Reference" "D2"
+		(property "Reference" "D81"
 			(at 99.06 181.61 90)
 			(effects
 				(font
@@ -8886,7 +9503,7 @@
 		(instances
 			(project "[DFR1142]Lite Carrier for LattePanda Mu"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b169c362-0273-44a3-bb19-0bcbad977976"
-					(reference "D2")
+					(reference "D81")
 					(unit 1)
 				)
 			)
@@ -8901,7 +9518,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a74f5ec0-bb79-4b87-8592-77547b565433")
-		(property "Reference" "C18"
+		(property "Reference" "C80"
 			(at 73.66 44.45 90)
 			(effects
 				(font
@@ -8989,7 +9606,7 @@
 		(instances
 			(project "[DFR1142]Lite Carrier for LattePanda Mu"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b169c362-0273-44a3-bb19-0bcbad977976"
-					(reference "C18")
+					(reference "C80")
 					(unit 1)
 				)
 			)
@@ -9004,7 +9621,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ac260566-4fe6-4ca0-8959-7817cdba79b8")
-		(property "Reference" "R14"
+		(property "Reference" "R89"
 			(at 105.41 101.6 90)
 			(effects
 				(font
@@ -9094,7 +9711,7 @@
 		(instances
 			(project "[DFR1142]Lite Carrier for LattePanda Mu"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b169c362-0273-44a3-bb19-0bcbad977976"
-					(reference "R14")
+					(reference "R89")
 					(unit 1)
 				)
 			)
@@ -9110,7 +9727,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b97ab374-edcc-4bb2-af50-6426ba04c83c")
-		(property "Reference" "Q4"
+		(property "Reference" "Q78"
 			(at 58.42 110.4899 0)
 			(effects
 				(font
@@ -9206,7 +9823,7 @@
 		(instances
 			(project "[DFR1142]Lite Carrier for LattePanda Mu"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b169c362-0273-44a3-bb19-0bcbad977976"
-					(reference "Q4")
+					(reference "Q78")
 					(unit 1)
 				)
 			)
@@ -9221,7 +9838,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bafe2538-03a0-4b88-a6a4-0662e297f6e2")
-		(property "Reference" "C21"
+		(property "Reference" "C83"
 			(at 73.66 64.77 90)
 			(effects
 				(font
@@ -9309,7 +9926,7 @@
 		(instances
 			(project "[DFR1142]Lite Carrier for LattePanda Mu"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b169c362-0273-44a3-bb19-0bcbad977976"
-					(reference "C21")
+					(reference "C83")
 					(unit 1)
 				)
 			)
@@ -9325,7 +9942,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc2ca0e2-9f27-420e-a994-d8ab42df3bfe")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR095"
 			(at 280.67 22.86 0)
 			(effects
 				(font
@@ -9376,7 +9993,7 @@
 		(instances
 			(project "[DFR1142]Lite Carrier for LattePanda Mu"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b169c362-0273-44a3-bb19-0bcbad977976"
-					(reference "#PWR031")
+					(reference "#PWR095")
 					(unit 1)
 				)
 			)
@@ -9391,7 +10008,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c0d727d3-9758-4be5-98d0-34c98a5d2e65")
-		(property "Reference" "D3"
+		(property "Reference" "D80"
 			(at 120.65 157.48 90)
 			(effects
 				(font
@@ -9481,7 +10098,7 @@
 		(instances
 			(project "[DFR1142]Lite Carrier for LattePanda Mu"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b169c362-0273-44a3-bb19-0bcbad977976"
-					(reference "D3")
+					(reference "D80")
 					(unit 1)
 				)
 			)
@@ -9496,7 +10113,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c156b1d0-cb47-4fcb-8aa7-6d907889299a")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR0100"
 			(at 115.57 115.57 0)
 			(effects
 				(font
@@ -9546,7 +10163,7 @@
 		(instances
 			(project "[DFR1142]Lite Carrier for LattePanda Mu"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b169c362-0273-44a3-bb19-0bcbad977976"
-					(reference "#PWR023")
+					(reference "#PWR0100")
 					(unit 1)
 				)
 			)
@@ -9561,7 +10178,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c5b6a130-9218-43cf-9152-1adb36a0d5df")
-		(property "Reference" "R3"
+		(property "Reference" "R94"
 			(at 71.12 125.73 0)
 			(effects
 				(font
@@ -9651,7 +10268,7 @@
 		(instances
 			(project "[DFR1142]Lite Carrier for LattePanda Mu"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b169c362-0273-44a3-bb19-0bcbad977976"
-					(reference "R3")
+					(reference "R94")
 					(unit 1)
 				)
 			)
@@ -9666,7 +10283,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c766716e-3759-473b-9989-bb92f08e71cf")
-		(property "Reference" "C19"
+		(property "Reference" "C81"
 			(at 73.66 53.34 90)
 			(effects
 				(font
@@ -9754,7 +10371,7 @@
 		(instances
 			(project "[DFR1142]Lite Carrier for LattePanda Mu"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b169c362-0273-44a3-bb19-0bcbad977976"
-					(reference "C19")
+					(reference "C81")
 					(unit 1)
 				)
 			)
@@ -9769,7 +10386,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c7818061-ae7d-4610-bce1-8389a7874f51")
-		(property "Reference" "R16"
+		(property "Reference" "R90"
 			(at 109.22 101.6 90)
 			(effects
 				(font
@@ -9859,7 +10476,7 @@
 		(instances
 			(project "[DFR1142]Lite Carrier for LattePanda Mu"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b169c362-0273-44a3-bb19-0bcbad977976"
-					(reference "R16")
+					(reference "R90")
 					(unit 1)
 				)
 			)
@@ -9875,7 +10492,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cd4c4f9c-f788-4be1-9381-f1ae385721de")
-		(property "Reference" "R19"
+		(property "Reference" "R93"
 			(at 46.99 110.49 90)
 			(effects
 				(font
@@ -9965,7 +10582,7 @@
 		(instances
 			(project "[DFR1142]Lite Carrier for LattePanda Mu"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b169c362-0273-44a3-bb19-0bcbad977976"
-					(reference "R19")
+					(reference "R93")
 					(unit 1)
 				)
 			)
@@ -9981,7 +10598,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d240c75b-578f-43f6-9189-912136ffe33e")
-		(property "Reference" "Q2"
+		(property "Reference" "Q79"
 			(at 93.98 132.08 90)
 			(effects
 				(font
@@ -10077,7 +10694,7 @@
 		(instances
 			(project "[DFR1142]Lite Carrier for LattePanda Mu"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b169c362-0273-44a3-bb19-0bcbad977976"
-					(reference "Q2")
+					(reference "Q79")
 					(unit 1)
 				)
 			)
@@ -10092,7 +10709,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e9f7b905-8805-484a-a698-827ab8757509")
-		(property "Reference" "C22"
+		(property "Reference" "C84"
 			(at 73.66 67.31 90)
 			(effects
 				(font
@@ -10180,7 +10797,7 @@
 		(instances
 			(project "[DFR1142]Lite Carrier for LattePanda Mu"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b169c362-0273-44a3-bb19-0bcbad977976"
-					(reference "C22")
+					(reference "C84")
 					(unit 1)
 				)
 			)
@@ -10195,7 +10812,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ea9588b7-38f9-4f43-93e5-ae022fa74eb5")
-		(property "Reference" "U2"
+		(property "Reference" "U79"
 			(at 212.09 106.68 0)
 			(effects
 				(font
@@ -10307,7 +10924,7 @@
 		(instances
 			(project "[DFR1142]Lite Carrier for LattePanda Mu"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b169c362-0273-44a3-bb19-0bcbad977976"
-					(reference "U2")
+					(reference "U79")
 					(unit 1)
 				)
 			)
@@ -10322,7 +10939,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eb05f9e3-87c7-41b3-95bc-624503d4b3fc")
-		(property "Reference" "U1"
+		(property "Reference" "U78"
 			(at 161.29 107.95 0)
 			(effects
 				(font
@@ -10434,7 +11051,7 @@
 		(instances
 			(project "[DFR1142]Lite Carrier for LattePanda Mu"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b169c362-0273-44a3-bb19-0bcbad977976"
-					(reference "U1")
+					(reference "U78")
 					(unit 1)
 				)
 			)
@@ -10450,7 +11067,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef212b3f-4d53-4431-86f8-e7a1677d1ba9")
-		(property "Reference" "#FLG0401"
+		(property "Reference" "#FLG079"
 			(at 132.08 118.745 0)
 			(effects
 				(font
@@ -10500,7 +11117,7 @@
 		(instances
 			(project "[DFR1142]Lite Carrier for LattePanda Mu"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b169c362-0273-44a3-bb19-0bcbad977976"
-					(reference "#FLG0401")
+					(reference "#FLG079")
 					(unit 1)
 				)
 			)
@@ -10517,7 +11134,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f076d50c-da3b-40ae-98b3-bdab97daa82b")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR096"
 			(at 156.21 110.49 0)
 			(effects
 				(font
@@ -10567,7 +11184,7 @@
 		(instances
 			(project "[DFR1142]Lite Carrier for LattePanda Mu"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b169c362-0273-44a3-bb19-0bcbad977976"
-					(reference "#PWR027")
+					(reference "#PWR096")
 					(unit 1)
 				)
 			)
@@ -10582,7 +11199,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f40363e7-8c2f-4fc2-ac43-1f796c781548")
-		(property "Reference" "R7"
+		(property "Reference" "R84"
 			(at 90.17 101.6 90)
 			(effects
 				(font
@@ -10672,7 +11289,7 @@
 		(instances
 			(project "[DFR1142]Lite Carrier for LattePanda Mu"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b169c362-0273-44a3-bb19-0bcbad977976"
-					(reference "R7")
+					(reference "R84")
 					(unit 1)
 				)
 			)
@@ -10687,7 +11304,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f4f75e18-d2e7-4d8f-bf3e-c7fe1f7f4879")
-		(property "Reference" "R17"
+		(property "Reference" "R91"
 			(at 111.76 101.6 90)
 			(effects
 				(font
@@ -10777,7 +11394,7 @@
 		(instances
 			(project "[DFR1142]Lite Carrier for LattePanda Mu"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b169c362-0273-44a3-bb19-0bcbad977976"
-					(reference "R17")
+					(reference "R91")
 					(unit 1)
 				)
 			)
@@ -10792,7 +11409,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f72d6013-2aa1-4227-8bad-8675d0d0ce71")
-		(property "Reference" "Q1"
+		(property "Reference" "Q81"
 			(at 71.12 168.91 90)
 			(effects
 				(font
@@ -10888,7 +11505,7 @@
 		(instances
 			(project "[DFR1142]Lite Carrier for LattePanda Mu"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b169c362-0273-44a3-bb19-0bcbad977976"
-					(reference "Q1")
+					(reference "Q81")
 					(unit 1)
 				)
 			)

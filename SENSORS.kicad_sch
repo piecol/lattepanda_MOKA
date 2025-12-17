@@ -3,10 +3,10 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "6ecc5c9d-62b8-4e2d-94ef-c9cac5f6e36c")
-	(paper "A4")
+	(paper "A5")
 	(title_block
 		(title "LattePanda_MOKA")
-		(date "2025-12-04")
+		(date "2025-12-14")
 		(rev "1.0")
 	)
 	(lib_symbols
@@ -750,7 +750,7 @@
 	)
 	(text "I2C AD: 0x64"
 		(exclude_from_sim no)
-		(at 119.38 85.09 0)
+		(at 73.66 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -758,45 +758,56 @@
 		)
 		(uuid "31446d6f-9296-40ec-a5db-9f28d3b821e1")
 	)
+	(text "[SENSORS]"
+		(exclude_from_sim no)
+		(at 30.48 17.78 0)
+		(effects
+			(font
+				(face "Arial Black")
+				(size 3.81 3.81)
+			)
+		)
+		(uuid "cb8fc381-2707-4570-8405-517fd1358daf")
+	)
 	(junction
-		(at 128.27 63.5)
+		(at 82.55 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2cad99b9-0be4-490a-ac1f-a833b6510de5")
 	)
 	(junction
-		(at 170.18 83.82)
+		(at 124.46 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "48382f2c-8c87-40b5-91ad-fb14e406aaa2")
 	)
 	(junction
-		(at 170.18 63.5)
+		(at 124.46 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "63e75f75-a191-4833-ba29-648e68a11b68")
 	)
 	(junction
-		(at 144.78 63.5)
+		(at 99.06 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "91603ced-991d-4900-8703-989642ed52f5")
 	)
 	(junction
-		(at 130.81 85.09)
+		(at 85.09 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b59920e7-11fb-4c10-9236-087180b2ed36")
 	)
 	(junction
-		(at 130.81 63.5)
+		(at 85.09 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fab87d6f-aa77-4b02-bb33-63d6b57dff32")
 	)
 	(wire
 		(pts
-			(xy 109.22 77.47) (xy 116.84 77.47)
+			(xy 63.5 67.31) (xy 71.12 67.31)
 		)
 		(stroke
 			(width 0)
@@ -806,7 +817,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 63.5) (xy 128.27 63.5)
+			(xy 85.09 53.34) (xy 82.55 53.34)
 		)
 		(stroke
 			(width 0)
@@ -816,7 +827,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 67.31) (xy 170.18 63.5)
+			(xy 124.46 57.15) (xy 124.46 53.34)
 		)
 		(stroke
 			(width 0)
@@ -826,7 +837,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 85.09) (xy 130.81 85.09)
+			(xy 82.55 74.93) (xy 85.09 74.93)
 		)
 		(stroke
 			(width 0)
@@ -836,7 +847,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 63.5) (xy 170.18 63.5)
+			(xy 99.06 53.34) (xy 124.46 53.34)
 		)
 		(stroke
 			(width 0)
@@ -846,7 +857,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 64.77) (xy 144.78 63.5)
+			(xy 99.06 54.61) (xy 99.06 53.34)
 		)
 		(stroke
 			(width 0)
@@ -856,7 +867,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 77.47) (xy 160.02 77.47)
+			(xy 96.52 67.31) (xy 114.3 67.31)
 		)
 		(stroke
 			(width 0)
@@ -866,7 +877,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 52.07) (xy 128.27 63.5)
+			(xy 82.55 41.91) (xy 82.55 53.34)
 		)
 		(stroke
 			(width 0)
@@ -876,7 +887,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 63.5) (xy 128.27 64.77)
+			(xy 82.55 53.34) (xy 82.55 54.61)
 		)
 		(stroke
 			(width 0)
@@ -886,7 +897,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 77.47) (xy 180.34 83.82)
+			(xy 134.62 67.31) (xy 134.62 73.66)
 		)
 		(stroke
 			(width 0)
@@ -896,7 +907,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 72.39) (xy 180.34 63.5)
+			(xy 134.62 62.23) (xy 134.62 53.34)
 		)
 		(stroke
 			(width 0)
@@ -906,7 +917,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 86.36) (xy 144.78 69.85)
+			(xy 99.06 76.2) (xy 99.06 59.69)
 		)
 		(stroke
 			(width 0)
@@ -916,7 +927,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 64.77) (xy 130.81 63.5)
+			(xy 85.09 54.61) (xy 85.09 53.34)
 		)
 		(stroke
 			(width 0)
@@ -926,7 +937,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 72.39) (xy 116.84 72.39)
+			(xy 63.5 62.23) (xy 71.12 62.23)
 		)
 		(stroke
 			(width 0)
@@ -936,7 +947,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 63.5) (xy 170.18 63.5)
+			(xy 134.62 53.34) (xy 124.46 53.34)
 		)
 		(stroke
 			(width 0)
@@ -946,7 +957,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 83.82) (xy 170.18 82.55)
+			(xy 124.46 73.66) (xy 124.46 72.39)
 		)
 		(stroke
 			(width 0)
@@ -956,7 +967,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 63.5) (xy 144.78 63.5)
+			(xy 85.09 53.34) (xy 99.06 53.34)
 		)
 		(stroke
 			(width 0)
@@ -966,7 +977,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 83.82) (xy 170.18 83.82)
+			(xy 134.62 73.66) (xy 124.46 73.66)
 		)
 		(stroke
 			(width 0)
@@ -976,7 +987,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 86.36) (xy 170.18 83.82)
+			(xy 124.46 76.2) (xy 124.46 73.66)
 		)
 		(stroke
 			(width 0)
@@ -986,7 +997,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 86.36) (xy 130.81 85.09)
+			(xy 85.09 76.2) (xy 85.09 74.93)
 		)
 		(stroke
 			(width 0)
@@ -996,7 +1007,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 72.39) (xy 160.02 72.39)
+			(xy 96.52 62.23) (xy 114.3 62.23)
 		)
 		(stroke
 			(width 0)
@@ -1006,7 +1017,7 @@
 	)
 	(hierarchical_label "I2C_SCL"
 		(shape input)
-		(at 109.22 72.39 180)
+		(at 63.5 62.23 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1017,7 +1028,7 @@
 	)
 	(hierarchical_label "I2C_SDA"
 		(shape bidirectional)
-		(at 109.22 77.47 180)
+		(at 63.5 67.31 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1028,15 +1039,15 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 180.34 74.93 0)
+		(at 134.62 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "2bbe0cd7-9cf1-4ddd-9374-a3e537f2497c")
-		(property "Reference" "C145"
-			(at 183.261 73.7616 0)
+		(property "Reference" "C147"
+			(at 137.541 63.6016 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1045,7 +1056,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 183.261 76.073 0)
+			(at 137.541 65.913 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1054,7 +1065,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 180.34 74.93 0)
+			(at 134.62 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1063,7 +1074,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 180.34 74.93 0)
+			(at 134.62 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1072,7 +1083,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 180.34 74.93 0)
+			(at 134.62 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1081,7 +1092,7 @@
 			)
 		)
 		(property "Field4" "Farnell"
-			(at 180.34 74.93 0)
+			(at 134.62 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1090,7 +1101,7 @@
 			)
 		)
 		(property "Field5" "2611911"
-			(at 180.34 74.93 0)
+			(at 134.62 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1099,7 +1110,7 @@
 			)
 		)
 		(property "Field6" "RM EMK105 B7104KV-F"
-			(at 180.34 74.93 0)
+			(at 134.62 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1108,7 +1119,7 @@
 			)
 		)
 		(property "Field7" "TAIYO YUDEN EUROPE GMBH"
-			(at 180.34 74.93 0)
+			(at 134.62 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1117,7 +1128,7 @@
 			)
 		)
 		(property "Part Description" "	0.1uF 10% 16V Ceramic Capacitor X7R 0402 (1005 Metric)"
-			(at 180.34 74.93 0)
+			(at 134.62 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1126,7 +1137,7 @@
 			)
 		)
 		(property "Field8" "110091611"
-			(at 180.34 74.93 0)
+			(at 134.62 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1143,7 +1154,7 @@
 		(instances
 			(project "LattePanda_MOKA"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/a4c64f71-bae9-4c6f-aa89-7c025d760ed2"
-					(reference "C145")
+					(reference "C147")
 					(unit 1)
 				)
 			)
@@ -1151,15 +1162,15 @@
 	)
 	(symbol
 		(lib_id "Sensor_Humidity:SHT4x")
-		(at 167.64 74.93 0)
+		(at 121.92 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "44eb6561-32b1-411f-b699-fd1fa3737e77")
-		(property "Reference" "U33"
-			(at 162.56 68.58 0)
+		(property "Reference" "U93"
+			(at 116.84 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1168,7 +1179,7 @@
 			)
 		)
 		(property "Value" "SHT4x"
-			(at 161.29 82.55 0)
+			(at 115.57 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1177,7 +1188,7 @@
 			)
 		)
 		(property "Footprint" "Sensor_Humidity:Sensirion_DFN-4_1.5x1.5mm_P0.8mm_SHT4x_NoCentralPad"
-			(at 171.45 81.28 0)
+			(at 125.73 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1187,7 +1198,7 @@
 			)
 		)
 		(property "Datasheet" "https://sensirion.com/media/documents/33FD6951/624C4357/Datasheet_SHT4x.pdf"
-			(at 171.45 83.82 0)
+			(at 125.73 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1197,7 +1208,7 @@
 			)
 		)
 		(property "Description" "Digital Humidity and Temperature Sensor, ±1%RH, ±0.1°C, I2C, 1.08-3.6V, 16bit, DFN-4"
-			(at 167.64 74.93 0)
+			(at 121.92 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1220,7 +1231,7 @@
 		(instances
 			(project "LattePanda_MOKA"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/a4c64f71-bae9-4c6f-aa89-7c025d760ed2"
-					(reference "U33")
+					(reference "U93")
 					(unit 1)
 				)
 			)
@@ -1228,7 +1239,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 128.27 52.07 0)
+		(at 82.55 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1236,8 +1247,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "484535e9-75f7-4691-97cc-a76f9ec69d01")
-		(property "Reference" "#PWR0127"
-			(at 128.27 55.88 0)
+		(property "Reference" "#PWR0195"
+			(at 82.55 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1246,7 +1257,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 128.27 46.99 0)
+			(at 82.55 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1254,7 +1265,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 128.27 52.07 0)
+			(at 82.55 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1263,7 +1274,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 52.07 0)
+			(at 82.55 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1272,7 +1283,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 128.27 52.07 0)
+			(at 82.55 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1286,7 +1297,7 @@
 		(instances
 			(project "LattePanda_MOKA"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/a4c64f71-bae9-4c6f-aa89-7c025d760ed2"
-					(reference "#PWR0127")
+					(reference "#PWR0195")
 					(unit 1)
 				)
 			)
@@ -1294,7 +1305,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 130.81 86.36 0)
+		(at 85.09 76.2 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1302,8 +1313,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "95d52509-720f-4e20-8f3f-57e6210f04c6")
-		(property "Reference" "#PWR0445"
-			(at 130.81 92.71 0)
+		(property "Reference" "#PWR0196"
+			(at 85.09 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1312,7 +1323,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 129.032 90.932 0)
+			(at 83.312 80.772 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1321,7 +1332,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.81 86.36 0)
+			(at 85.09 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1330,7 +1341,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 86.36 0)
+			(at 85.09 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1339,7 +1350,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 130.81 86.36 0)
+			(at 85.09 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1353,7 +1364,7 @@
 		(instances
 			(project "LattePanda_MOKA"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/a4c64f71-bae9-4c6f-aa89-7c025d760ed2"
-					(reference "#PWR0445")
+					(reference "#PWR0196")
 					(unit 1)
 				)
 			)
@@ -1361,7 +1372,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 170.18 86.36 0)
+		(at 124.46 76.2 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1369,8 +1380,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "968b262b-c4b7-4c11-b08b-d3026e9ad247")
-		(property "Reference" "#PWR0446"
-			(at 170.18 92.71 0)
+		(property "Reference" "#PWR0198"
+			(at 124.46 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1379,7 +1390,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 168.402 90.932 0)
+			(at 122.682 80.772 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1388,7 +1399,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 170.18 86.36 0)
+			(at 124.46 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1397,7 +1408,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 86.36 0)
+			(at 124.46 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1406,7 +1417,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 170.18 86.36 0)
+			(at 124.46 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1420,7 +1431,7 @@
 		(instances
 			(project "LattePanda_MOKA"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/a4c64f71-bae9-4c6f-aa89-7c025d760ed2"
-					(reference "#PWR0446")
+					(reference "#PWR0198")
 					(unit 1)
 				)
 			)
@@ -1428,15 +1439,15 @@
 	)
 	(symbol
 		(lib_id "EasyEDA:STCC4-D-R3")
-		(at 129.54 74.93 0)
+		(at 83.82 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "c2e60e25-8f9f-48df-a54e-4e2c5270aad2")
-		(property "Reference" "U34"
-			(at 121.92 66.04 0)
+		(property "Reference" "U92"
+			(at 76.2 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1444,7 +1455,7 @@
 			)
 		)
 		(property "Value" "STCC4"
-			(at 135.89 83.82 0)
+			(at 90.17 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1452,7 +1463,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA:LAG-8_L4.0-W3.0-P1.15-TL"
-			(at 129.54 85.09 0)
+			(at 83.82 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1461,7 +1472,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 74.93 0)
+			(at 83.82 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1470,7 +1481,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 129.54 74.93 0)
+			(at 83.82 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1479,7 +1490,7 @@
 			)
 		)
 		(property "LCSC Part" "C49191471"
-			(at 129.54 87.63 0)
+			(at 83.82 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1514,7 +1525,7 @@
 		(instances
 			(project "LattePanda_MOKA"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/a4c64f71-bae9-4c6f-aa89-7c025d760ed2"
-					(reference "U34")
+					(reference "U92")
 					(unit 1)
 				)
 			)
@@ -1522,7 +1533,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 144.78 67.31 0)
+		(at 99.06 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1530,7 +1541,7 @@
 		(dnp no)
 		(uuid "d524f91e-96d0-4d30-8088-c3c9e25a0900")
 		(property "Reference" "C146"
-			(at 147.701 66.1416 0)
+			(at 101.981 55.9816 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1539,7 +1550,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 147.701 68.453 0)
+			(at 101.981 58.293 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1548,7 +1559,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 144.78 67.31 0)
+			(at 99.06 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1557,7 +1568,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 144.78 67.31 0)
+			(at 99.06 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1566,7 +1577,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 144.78 67.31 0)
+			(at 99.06 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1575,7 +1586,7 @@
 			)
 		)
 		(property "Field4" "Farnell"
-			(at 144.78 67.31 0)
+			(at 99.06 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1584,7 +1595,7 @@
 			)
 		)
 		(property "Field5" "2611911"
-			(at 144.78 67.31 0)
+			(at 99.06 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1593,7 +1604,7 @@
 			)
 		)
 		(property "Field6" "RM EMK105 B7104KV-F"
-			(at 144.78 67.31 0)
+			(at 99.06 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1602,7 +1613,7 @@
 			)
 		)
 		(property "Field7" "TAIYO YUDEN EUROPE GMBH"
-			(at 144.78 67.31 0)
+			(at 99.06 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1611,7 +1622,7 @@
 			)
 		)
 		(property "Part Description" "	0.1uF 10% 16V Ceramic Capacitor X7R 0402 (1005 Metric)"
-			(at 144.78 67.31 0)
+			(at 99.06 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1620,7 +1631,7 @@
 			)
 		)
 		(property "Field8" "110091611"
-			(at 144.78 67.31 0)
+			(at 99.06 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1645,7 +1656,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 144.78 86.36 0)
+		(at 99.06 76.2 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1653,8 +1664,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f5dce4ad-d430-4065-bc2e-c0cdb7d0fd4e")
-		(property "Reference" "#PWR0448"
-			(at 144.78 92.71 0)
+		(property "Reference" "#PWR0197"
+			(at 99.06 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1663,7 +1674,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 143.002 90.932 0)
+			(at 97.282 80.772 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1672,7 +1683,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 86.36 0)
+			(at 99.06 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1681,7 +1692,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 86.36 0)
+			(at 99.06 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1690,7 +1701,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 144.78 86.36 0)
+			(at 99.06 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1704,7 +1715,7 @@
 		(instances
 			(project "LattePanda_MOKA"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/a4c64f71-bae9-4c6f-aa89-7c025d760ed2"
-					(reference "#PWR0448")
+					(reference "#PWR0197")
 					(unit 1)
 				)
 			)
