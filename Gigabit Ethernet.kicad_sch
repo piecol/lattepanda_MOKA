@@ -9163,7 +9163,7 @@
 		(fields_autoplaced yes)
 		(uuid "f0dc4353-5740-467a-ad31-afc61bc748be")
 		(property "Reference" "U83"
-			(at 133.985 87.63 0)
+			(at 133.985 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9171,12 +9171,11 @@
 			)
 		)
 		(property "Value" "RTL8111H-CG-RH"
-			(at 120.65 147.066 0)
+			(at 133.985 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Footprint" "A_HDJ_Library:QFN-32-1EP_4x4mm_P0.4mm_EP2.65x2.65mm"

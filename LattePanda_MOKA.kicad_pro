@@ -735,11 +735,11 @@
     "net_colors": {
       "+12V": "rgb(204, 102, 0)",
       "+12VA": "rgb(255, 153, 0)",
-      "+15V": "rgb(255, 255, 0)",
+      "+15V": "rgb(255, 6, 156)",
       "+3V3": "rgb(0, 255, 0)",
       "+5V": "rgb(255, 153, 0)",
       "GND": "rgb(72, 72, 72)",
-      "VDC": "rgb(255, 0, 255)"
+      "VDC": "rgb(0, 194, 194)"
     },
     "netclass_assignments": null,
     "netclass_patterns": [
