@@ -7726,7 +7726,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:R_0603_1608Metric"
+		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
 			(at 106.68 119.888 90)
 			(effects
 				(font
