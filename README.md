@@ -3,6 +3,10 @@
 Preview the KiCAD project on Kicanvas:
 https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2Fpiecol%2Flattepanda_MOKA
 
+<img width="1005" height="776" alt="Screenshot 2025-12-24 at 23 44 37" src="https://github.com/user-attachments/assets/83934b5d-63ce-4ab3-88f3-891d93dd893b" />
+<img width="954" height="775" alt="Screenshot 2025-12-24 at 23 46 09" src="https://github.com/user-attachments/assets/188947ad-7483-4e0f-9d7f-9ef9b9d772f1" />
+
+
 What's on-board:
 
 - Gigabit ethernet
